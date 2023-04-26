@@ -1,0 +1,38 @@
+
+// Configurar Git 
+
+// Com o --global configura o git no PC inteiro
+// Sem o -- global configura só daquele projeto
+
+git config --global user.email "gabriel_agrela2020@hotmail.com"
+
+git config --global user.name "4grel4"
+
+
+Token - 
+
+GitHub
+
+User: EMAIL DO GITHUB
+Password: SENHA DO GITHUB
+
+
+Comandos do dia a dia
+
+//Inicia o git no projeto
+	git init
+	
+// Adiciona todos os arquivos com o "." | Se for apenas um arquivo colocar assim Exemplo git add index.html
+	git add .
+  
+// Faz um commit e adiciona a mensagem
+	git commit -m "Aqui dentro a mensagem do seu commit"
+
+// Vincula ao remoto do seu Github
+	git remote add origin URL DO PROJETO
+
+// Muda ou cria a branch master (Se a sua for default não faz nada)
+	git branch -M master
+
+// Envia os arquivos commitados para o Github 
+	git push -u origin master
